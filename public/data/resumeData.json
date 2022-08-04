@@ -22,65 +22,92 @@
         "projects": {
             "project": [
                 {
-                    "title": "Portfolio Website",
+                    "key": 1,
+                    "title": "Portfolio | S.R Dragonfang",
+                    "subtitle": "Portfolio Website",
                     "languages": "ReactJS, SCSS",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/portfolio.png",
+                    "mobilePath": "../assets/images/products/portfolio.png",
                     "previewURL": "https://srdf-portfolio.web.app/",
                     "sourceURL": "https://github.com/srdragonfang/React-Porfolio"
                 },
                 {
-                    "title": "Sokunmaru Desk",
+                    "key": 2,
+                    "title": "Sokunmaru | Desk",
+                    "subtitle": "MusicPlayer App, Clock App, Todo App, Note App, Kanban App",
                     "languages": "ReactJS, SCSS, API",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "https://sokunmaru-desk.netlify.app/",
                     "sourceURL": "https://github.com/srdragonfang/sokunmaru-desk"
                 },
                 {
-                    "title": "Movie Website",
+                    "key": 3,
+                    "title": "Sokunmaru | Movie Shop",
+                    "subtitle": "Economy Movie Website",
                     "languages": "ReactJS, CSS",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "https://srdf-movie-website.web.app/",
                     "sourceURL": "https://github.com/srdragonfang/React-movie-website"
                 },
                 {
-                    "title": "Movie Booking Seats",
+                    "key": 4,
+                    "title": "Sokunmaru | Cinema",
+                    "subtitle": "Movie Booking Seats",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
                 },
                 {
-                    "title": "Form Validate",
+                    "key": 5,
+                    "title": "Sokunmaru | Magazine",
+                    "subtitle": "Form Validate",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": ""
                 },
                 {
-                    "title": "Form Validate",
+                    "key": 6,
+                    "title": "Clone | TikTok",
+                    "subtitle": "Video Social Media",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": ""
                 },
                 {
-                    "title": "New Project 01",
+                    "key": 7,
+                    "title": "Clone | Gmail",
+                    "subtitle": "Form Validate",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
                 },
                 {
-                    "title": "New Project 02",
+                    "key": 8,
+                    "title": "Form | Validate",
+                    "subtitle": "Form Validate",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": ""
                 },
                 {
-                    "title": "New Project 03",
+                    "key": 9,
+                    "title": "",
+                    "subtitle": "New Project 03",
                     "languages": "HTML5, CSS3, Javascript",
-                    "image": "../assets/images/products/newspaper.jpg",
+                    "laptopPath": "../assets/images/products/newspaper.jpg",
+                    "mobilePath": "../assets/images/products/newspaper.jpg",
                     "previewURL": "",
                     "sourceURL": ""
                 }

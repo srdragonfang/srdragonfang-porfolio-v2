@@ -4,7 +4,7 @@ const Footer = ({ data }) => {
 		const today = new Date();
 		var socialBar = data.info.map((item, index) => {
 			return (
-				<footer>
+				<footer key={index}>
 					<div className='socialBar' id='about-id'>
 						<p>CONTACT</p>
 						<h1 className='email'>{item.email}</h1>

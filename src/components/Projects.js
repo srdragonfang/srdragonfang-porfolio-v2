@@ -14,7 +14,7 @@ const Projects = ({ data }) => {
 							<FaLanguage
 								size={27}
 								style={{ marginRight: '1rem' }}
-							/>{' '}
+							/>
 							{item.languages}
 						</p>
 						<div className='buttons'>

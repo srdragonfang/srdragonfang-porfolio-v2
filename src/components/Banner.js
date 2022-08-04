@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-import AuthorController from './AuthorController';
+// import AuthorController from './AuthorController';
 const Banner = () => {
 	return (
 		<section className='section banner'>
@@ -36,7 +36,6 @@ const Banner = () => {
 				backSpeed={10}
 				loop
 			/>
-			<AuthorController />
 		</section>
 	);
 };

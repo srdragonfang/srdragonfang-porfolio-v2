@@ -69,7 +69,6 @@ body {
   /** * Remove the margin in all browsers. */
   margin: 0;
   font-size: 2rem;
-  background-color: #000000;
 }
 
 /** * Render the `main` element consistently in IE. */
@@ -1075,4 +1074,127 @@ footer {
   to {
     transform: translateY(-100px);
   }
+}
+.project__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15rem;
+}
+
+.project__item {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.project__item--top {
+  position: relative;
+  width: 768px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.project__item--top .pit__left {
+  background: #d5d5d5;
+  width: 70%;
+  padding: 3rem;
+}
+.project__item--top .pit__left h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.project__item--top .pit__left--subtitle {
+  font-size: 2.5rem;
+  padding-right: 5rem;
+}
+.project__item--top .pit__right {
+  position: absolute;
+  top: 20%;
+  right: -15%;
+  background: #f3ede9;
+  width: 50%;
+  padding: 3rem;
+}
+.project__item--top .pit__right--description {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.project__item--top .pit__right--buttons {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.project__item--top .pit__right--buttons a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.project__item--top .pit__right--buttons a span {
+  margin-right: 1rem;
+}
+.project__item--bottom {
+  position: absolute;
+  top: 20%;
+  background: #bfa48d;
+  padding: 10rem 10rem 10rem 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.project__item--bottom .pib__frame {
+  width: 649px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.project__item--bottom .pib__frame--laptop {
+  width: 489px;
+  height: 280px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2rem solid #191919;
+  border-radius: 15px;
+}
+.project__item--bottom .pib__frame--laptop:hover img {
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+}
+.project__item--bottom .pib__frame--mobile {
+  width: 160px;
+  height: 280px;
+  position: absolute;
+  top: 20%;
+  right: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1rem solid #191919;
+  border-radius: 15px;
+}
+.project__item--bottom .pib__frame--mobile:hover img {
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+}
+.project__item--bottom .pib__frame img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project__item--bottom .pib__frame--glass {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */

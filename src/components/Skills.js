@@ -5,10 +5,10 @@ const Skills = () => {
 		<section className='section skill' id='skills-id'>
 			<h1>Skills</h1>
 			<div className='skill__container'>
-				<artical className='skill__container--content'>
+				<div className='skill__container--content'>
                 
                 
-                </artical>
+                </div>
 				<div className='skill__container--list'>
 					{SkillsData.map((item, index) => {
 						return (

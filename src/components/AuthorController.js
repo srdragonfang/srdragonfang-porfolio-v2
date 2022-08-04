@@ -6,8 +6,8 @@ const AuthorController = () => {
 	const authCtr = document.querySelector('.authorCtrl');
 	window.addEventListener('scroll', () => {
 		if (window.scrollY > 1200) {
+            authCtr.classList.add('authorCtrl-position');
 			authCtr.classList.remove('authorCtrl-position--abs');
-			authCtr.classList.add('authorCtrl-position');
 		} else {
 			authCtr.classList.remove('authorCtrl-position');
 			authCtr.classList.add('authorCtrl-position--abs');
