@@ -1,0 +1,198 @@
+@use '../util/fonts';
+
+.authorCtrl {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	position: absolute;
+	bottom: -35px;
+	width: 70px;
+	height: 70px;
+	z-index: 101;
+	transition: all 3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+	// .authorCtrl {
+	// 	position: fixed;
+	// 	bottom: 0;
+	// 	right: 0;
+	// 	left: 0;
+	// 	background: brown;
+	// 	width: 100vw !important;
+	// }
+	.controller__bar--button {
+		font-size: 2rem !important;
+		margin: 0rem !important;
+	}
+	.topLeft {
+        padding-bottom: 7rem !important; 
+	}
+	.topRight {
+        padding-bottom: 5rem !important; 
+    }
+
+	.bottomLeft {
+        padding-top: 5rem !important; ;
+    }
+	.bottomRight {
+        padding-top: 5rem !important;
+	}
+}
+.authorCtrl-position {
+	position: fixed;
+	right: calc(50vw - 35px);
+	bottom: 6rem;
+	transform: rotate(360deg);
+	transition: 3s linear;
+	z-index: 101;
+}
+.authorCtrl-position--abs {
+	position: absolute;
+	bottom: -33px;
+	width: 70px;
+	height: 70px;
+	z-index: 101;
+}
+
+.authorCtrl-position--abs img {
+	display: none !important;
+}
+
+.authorCtrl-position--abs .avatar__outter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 5px solid rgba(0, 255, 0, 0.5);
+	border-right: 5px solid #191919;
+	border-bottom: 5px solid #191919;
+	border-left: 5px solid rgba(0, 255, 0, 0.5);
+	background: #2fff89;
+	transform: rotate(45deg);
+}
+.authorCtrl-position--abs .avatar__inner {
+	width: 50px;
+	height: 50px;
+	background: rgb(210, 246, 218);
+	border-top: 5px solid #191919;
+	border-right: 5px solid rgba(0, 255, 0, 0.5);
+	border-bottom: 5px solid rgba(0, 255, 0, 0.5);
+	border-left: 5px solid #191919;
+}
+
+.authorCtrl-position img {
+	display: flex;
+}
+
+.avatar__outter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	margin-left: 1rem;
+	transform: rotate(45deg);
+	border-top: 5px solid rgba(0, 255, 0, 0.5);
+	border-right: 5px solid #191919;
+	border-bottom: 5px solid #191919;
+	border-left: 5px solid rgba(0, 255, 0, 0.5);
+	// background: #trans;
+	cursor: pointer;
+}
+
+.avatar__inner {
+	width: 60px;
+	height: 60px;
+	border-top: 5px solid #191919;
+	border-right: 5px solid rgba(0, 255, 0, 0.5);
+	border-bottom: 5px solid rgba(0, 255, 0, 0.5);
+	border-left: 5px solid #191919;
+	overflow: hidden;
+
+	& img {
+		// display: none;
+		width: 100px;
+		height: 100px;
+		padding: 10px;
+		position: relative;
+		bottom: 20px;
+		right: 20px;
+		object-fit: cover;
+		transform: rotate(-45deg);
+	}
+}
+
+.controller__bar--top {
+	position: relative;
+	right: -50px;
+	/* bottom: -30px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	transform: rotate(90deg);
+}
+.controller__bar--bottom {
+	position: relative;
+	right: 40px;
+	/* bottom: 30px; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	transform: rotate(-90deg);
+}
+
+.controller__bar--button {
+	width: 50px;
+	height: 270px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: fonts.$font-martrix;
+	font-size: 2rem;
+	color: rgb(210, 246, 218);
+	text-shadow: 1px 5px 25px rgba(0, 255, 0, 0.5),
+		1px -5px 15px rgba(0, 255, 0, 0.5);
+	// color: #daa520;
+	font-weight: 700;
+	background: #191919;
+	border: 3px solid rgba(0, 255, 0, 0.5);
+}
+
+.topLeft {
+	transform: rotate(180deg);
+	writing-mode: vertical-rl;
+	clip-path: polygon(0 18%, 98% 0, 100% 82%, 0 100%);
+}
+.topRight {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 82%);
+}
+
+.bottomLeft {
+	writing-mode: vertical-rl;
+	clip-path: polygon(0 18%, 98% 0, 100% 82%, 0 100%);
+}
+.bottomRight {
+	writing-mode: vertical-rl;
+	clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 82%);
+}
+
+.authorCtrl-position:hover {
+	animation: controller__button--translate 15s linear;
+}
+.authorCtrl-position:hover .controller__bar--button {
+	font-size: 4rem;
+	margin: 0.5rem;
+	transition: all 1s linear;
+}
+
+@keyframes controller__button--translate {
+	to {
+		transform: translateY(-100px);
+	}
+}

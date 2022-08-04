@@ -1,0 +1,95 @@
+@use '../global' as g;
+
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+footer {
+	// responsive
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	// style
+	color: #f9f9f9;
+	background-image: url('../assets/images/bg-glaxy-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	@include g.flex-col(space-between);
+}
+.socialBar {
+	width: 100%;
+	flex: 1;
+	padding: 60px 3rem 0;
+	@include g.flex-col(center);
+
+	& h1 {
+		color: rgb(210, 246, 218);
+		text-align: center;
+		text-shadow: 1px 5px 25px rgba(0, 255, 0, 0.5),
+			1px -5px 15px rgba(0, 255, 0, 0.5);
+	}
+	& p {
+		font-size: 3rem;
+		font-weight: 800;
+		animation: font-tranformer2 5s linear infinite;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.socialBar {
+		padding: 0 1rem;
+
+        & h1 {
+            font-size: 2.5rem;
+        }
+		& p {
+			font-size: 3rem;
+			font-weight: 800;
+			animation: font-tranformer2 5s linear infinite;
+		}
+	}
+}
+.credits {
+	height: max-content;
+	width: 100%;
+	border-top: 2px ridge #7c8081;
+	padding: 1rem 3rem;
+
+	@include g.flex-row(space-between);
+
+	&-list {
+		border-left: 1px solid #7c8081;
+		padding: 0.5rem 1rem;
+		max-width: 220px;
+		@include g.flexbox(column, flex-start, center);
+	}
+	&-item a {
+		color: inherit;
+		border: dashed 1px transparent;
+
+		&:hover {
+			border: dashed 1px #2fff89;
+		}
+	}
+	&-author {
+		color: #2fff89;
+	}
+}
+@media screen and (max-width: 768px) {
+	.credits {
+		padding: 1rem 1rem;
+		flex-direction: column;
+	}
+}
+
+@keyframes font-tranformer2 {
+	0% {
+		text-transform: uppercase;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		text-transform: capitalize;
+		opacity: 1;
+	}
+}

@@ -1,0 +1,50 @@
+@use '../util/fonts';
+@use '../global' as g;
+
+
+.banner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	// text-shadow: 4px 10px rgba(6, 141, 154, 0.427);
+	position: relative;
+	z-index: 1001;
+    @include g.bg-matrix;
+
+	& span {
+		font: fonts.$font-martrix;
+		font-size: 5rem;
+		color: rgb(210, 246, 218);
+		text-align: center;
+		text-shadow: 1px 5px 25px rgba(0, 255, 0, 0.5),
+			1px -5px 15px rgba(0, 255, 0, 0.5);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner {
+		font-size: 2.5rem;
+	}
+}
+
+@keyframes waterfall {
+	from {
+		background-position: 84px -2660px, 426px -1080px, 730px -3240px,
+			872px -2160px, 95% -1350px, 0 0;
+	}
+	to {
+		background-position: 84px 1660px, 426px 3240px, 730px 1080px,
+			872px 2160px, 95% 2970px, 0 1460px;
+	}
+}
+
+@-webkit-keyframes waterfall {
+	from {
+		background-position: 84px -2660px, 426px -1080px, 730px -3240px,
+			872px -2160px, 95% -1350px, 0 0;
+	}
+	to {
+		background-position: 84px 1660px, 426px 3240px, 730px 1080px,
+			872px 2160px, 95% 2970px, 0 1460px;
+	}
+}

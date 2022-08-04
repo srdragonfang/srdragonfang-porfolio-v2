@@ -1,0 +1,115 @@
+{
+    "main": {
+        "info": [
+            {
+                "name": "S.R Dragonfang",
+                "email": "sr.dragonfang@hotmail.com",
+                "instagram": "https://www.instagram.com/srdragonfang",
+                "github": "https://www.github.com/srdragonfang",
+                "codepen": "https://www.codepen.com/srdragonfang"
+            }
+        ]
+    },
+    "portfolio": {
+        "introduce": [
+            {
+                "text": "I'm S.R Dragonfang. A creator, author and front-end developer. I love the creativity and beauty of art through letters and words. Tôi bắt đầu theo đuổi công việc này khoảng một năm trước và không ngừng cố gsắng cải thiện kĩ năng của mình."
+            },
+            {
+                "text": ""
+            }
+        ],
+        "projects": {
+            "project": [
+                {
+                    "title": "Portfolio Website",
+                    "languages": "ReactJS, SCSS",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "https://srdf-portfolio.web.app/",
+                    "sourceURL": "https://github.com/srdragonfang/React-Porfolio"
+                },
+                {
+                    "title": "Sokunmaru Desk",
+                    "languages": "ReactJS, SCSS, API",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "https://sokunmaru-desk.netlify.app/",
+                    "sourceURL": "https://github.com/srdragonfang/sokunmaru-desk"
+                },
+                {
+                    "title": "Movie Website",
+                    "languages": "ReactJS, CSS",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "https://srdf-movie-website.web.app/",
+                    "sourceURL": "https://github.com/srdragonfang/React-movie-website"
+                },
+                {
+                    "title": "Movie Booking Seats",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
+                },
+                {
+                    "title": "Form Validate",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": ""
+                },
+                {
+                    "title": "Form Validate",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": ""
+                },
+                {
+                    "title": "New Project 01",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
+                },
+                {
+                    "title": "New Project 02",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": ""
+                },
+                {
+                    "title": "New Project 03",
+                    "languages": "HTML5, CSS3, Javascript",
+                    "image": "../assets/images/products/newspaper.jpg",
+                    "previewURL": "",
+                    "sourceURL": ""
+                }
+            ]
+        },
+        "certificates": {
+            "frontEnd": [
+                {
+                    "title": "HTML Essential Training"
+                },
+                {
+                    "title": "CSS Essential Training"
+                },
+                {
+                    "title": "JavaScript Essential Training"
+                },
+                {
+                    "title": "SCSS Essential Training"
+                },
+                {
+                    "title": "Bootstrap Essential Training"
+                },
+                {
+                    "title": "TailwindCSS Essential Trainings"
+                },
+                {
+                    "title": "Github Essential Training The Basic"
+                }
+            ]
+        }
+    }
+}

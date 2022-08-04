@@ -1,0 +1,44 @@
+/* -------------------------------------------------------------------------- */
+/*                                   section                                  */
+/* -------------------------------------------------------------------------- */
+.section {
+	width: 100vw;
+	height: 100vh;
+    // margin-bottom: 10rem;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   button                                   */
+/* -------------------------------------------------------------------------- */
+.btn {
+	// box
+	outline: unset;
+	border: unset;
+	cursor: pointer;
+	// background: transparent;
+	&-link {
+		// box
+		border: 3px dashed transparent;
+		padding: 0.5rem 2rem;
+		margin-bottom: 0.5rem;
+		// text
+		font-weight: 600;
+		color: inherit;
+
+		&:hover {
+			// box
+			border: 3px dashed #2fff89;
+			// animation
+			transition: 0.5s ease-in-out;
+		}
+	}
+	&-close {
+		color: #f9f9f9;
+		background: #191919;
+		cursor: pointer;
+		// @include center-center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

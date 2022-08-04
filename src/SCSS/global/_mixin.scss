@@ -1,0 +1,65 @@
+/* -------------------------------------------------------------------------- */
+/*                               mixin: flexbox                               */
+/* -------------------------------------------------------------------------- */
+@mixin center-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin flexbox($a, $b, $c) {
+	display: flex;
+	flex-direction: $a;
+	align-items: $b;
+	justify-content: $c;
+}
+@mixin flex-col($a) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: $a;
+}
+@mixin flex-row($a) {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: $a;
+}
+
+@mixin gridbox($a) {
+	display: grid;
+	gap: $a;
+}
+
+@mixin fullbox {
+	width: 100%;
+	height: 100%;
+}
+
+@mixin themeMode {
+	background: #191919;
+	color: #f9f9f9;
+}
+/* -------------------------------------------------------------------------- */
+/*                          background matrix effect                          */
+/* -------------------------------------------------------------------------- */
+@mixin bg-matrix {
+    background: url('../assets/images/banner/bg03b.png')
+						84px -1080px
+						no-repeat,
+					url('../assets/images/banner/bg01b.png')
+						426px -1080px
+						no-repeat,
+					url('../assets/images/banner/bg02b.png')
+						730px -1080px
+						no-repeat,
+					url('../assets/images/banner/bg03b.png')
+						872px -1080px
+						no-repeat,
+					url('../assets/images/banner/bg02b.png')
+						95% -1080px
+						no-repeat,
+					url('../assets/images/banner/bg00.jpg') 0 0 repeat;
+				background-color: #111;
+				-webkit-animation: waterfall 10s linear infinite;
+				animation: waterfall 10s linear infinite;
+}
