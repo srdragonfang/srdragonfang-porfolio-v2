@@ -11,8 +11,9 @@ const Footer = ({ data }) => {
 					</div>
 					<div className='credits'>
                         <div className='row__line'></div>
+                        <p>Sokunmaru Group</p>
 						<p>
-							Sokunmaru Group | S.R Dragonfang. Copyright &copy;
+							S.R Dragonfang | &copy;
 							{today.getFullYear()}
 						</p>
 					</div>

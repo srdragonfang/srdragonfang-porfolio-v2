@@ -72,15 +72,21 @@
 			}
 
 			&--buttons {
-				gap: 1rem;
+                gap: 1rem;
 				@include g.flexbox(column, flex-start, flex-start);
-
+                
 				& a {
-					@include g.flex-row(flex-start);
+                    @include g.flex-row(flex-start);
 
 					& span {
 						margin-right: 1rem;
 					}
+
+                    &:hover {
+                        transform: translateX(5px);
+                        transition: 1s linear;
+                        text-decoration: underline;
+                    }
 				}
 			}
 		}

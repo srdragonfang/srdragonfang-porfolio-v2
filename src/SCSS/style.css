@@ -698,6 +698,37 @@ sup {
   transition: 3s linear;
 }
 
+@media screen and (max-width: 768px) {
+  .introduce {
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+  }
+  .introduce__container {
+    padding: 5rem 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: none;
+  }
+  .introduce__images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .introduce__content {
+    flex: 1;
+    padding: 15rem 0;
+  }
+  .introduce__content p {
+    font-weight: 600;
+  }
+}
+/* --------------------------------- SKILLS --------------------------------- */
 .skill {
   padding: 5rem 0;
 }
@@ -730,6 +761,7 @@ sup {
     font-size: 1.6rem !important;
   }
 }
+/* --------------------------- portfolio > project -------------------------- */
 .project {
   height: -webkit-max-content !important;
   height: -moz-max-content !important;
@@ -773,6 +805,15 @@ sup {
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .project__list--row {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
@@ -1151,6 +1192,11 @@ footer {
 }
 .project__item--top .pit__right--buttons a span {
   margin-right: 1rem;
+}
+.project__item--top .pit__right--buttons a:hover {
+  transform: translateX(5px);
+  transition: 1s linear;
+  text-decoration: underline;
 }
 .project__item--bottom {
   position: absolute;
