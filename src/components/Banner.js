@@ -3,16 +3,13 @@ import Typed from 'react-typed';
 // import AuthorController from './AuthorController';
 const Banner = () => {
 	return (
-		<section className='section banner'>
+		<section className='banner'>
 			<Typed
 				strings={[
-                    '......',
-                    'PRESS F11',
 					'RESET  SYSTEM',
 					'CODE SOKUNMARU',
-					'PORTFOLIO',
-                    'ID: S.R Dragonfang',
-                    'Password: ----------',
+					'ID: PORTFOLIO',
+                    'PW: S.R Dragonfang',
 					'LOGIN',
 					'LOADING...0%',
 					'LOADING...1%',
@@ -24,6 +21,7 @@ const Banner = () => {
 					'LOGIN SUCCESS',
 					'HI',
 					'BOUJOUR',
+					'こんにちは',
 					'XIN CHAO',
 					'I am S.R Dragonfang',
                     'A creator, author and front-end developer.',

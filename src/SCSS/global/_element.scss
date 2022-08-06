@@ -3,8 +3,8 @@
 /* -------------------------------------------------------------------------- */
 .section {
 	width: 100vw;
-	height: 100vh;
-    // margin-bottom: 10rem;
+	// height: 100vh;
+    margin-top: 10rem;
 }
 /* -------------------------------------------------------------------------- */
 /*                                   button                                   */
@@ -41,4 +41,11 @@
         justify-content: center;
     }
 
+}
+
+.row__line {
+    width: 20%;
+    height: 3px;
+    background-color: #19191975;
+    margin-bottom: 1rem;
 }

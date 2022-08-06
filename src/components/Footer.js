@@ -10,16 +10,11 @@ const Footer = ({ data }) => {
 						<h1 className='email'>{item.email}</h1>
 					</div>
 					<div className='credits'>
+                        <div className='row__line'></div>
 						<p>
-							Sokunmaru Group | Copyright &copy;
+							Sokunmaru Group | S.R Dragonfang. Copyright &copy;
 							{today.getFullYear()}
 						</p>
-						<h4>
-							<code>developed by </code>
-							<strong className='credits-author'>
-								S.R Dragonfang
-							</strong>
-						</h4>
 					</div>
 				</footer>
 			);
