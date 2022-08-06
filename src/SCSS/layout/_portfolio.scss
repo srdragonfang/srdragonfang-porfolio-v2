@@ -236,11 +236,7 @@
     }
     .introduce__content {
         flex: 1;
-        padding: 15rem 0;  
-        & p {
-            font-weight: 600;
-
-        }
+        padding: 5rem 0;  
     
     }  
     
@@ -322,9 +318,8 @@
 @media screen and (max-width: 768px){
     
     .project {
-        &__list--row {
-            gap: 1rem;
-            @include g.flex-col(center);
+        &__info {
+            @include g.flex-col(flex-start);
         }
     }
     

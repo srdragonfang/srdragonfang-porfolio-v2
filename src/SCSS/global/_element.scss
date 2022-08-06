@@ -1,3 +1,4 @@
+@use './mixin';
 /* -------------------------------------------------------------------------- */
 /*                                   section                                  */
 /* -------------------------------------------------------------------------- */
@@ -45,7 +46,13 @@
 
 .row__line {
     width: 20%;
-    height: 3px;
-    background-color: #19191975;
+    height: 10px;
+    @include mixin.bg-matrix;
+    margin-bottom: 1rem;
+}
+.row__square {
+    width: 30%;
+    height: 15px;
+    @include mixin.bg-matrix;
     margin-bottom: 1rem;
 }

@@ -375,8 +375,21 @@ sup {
 
 .row__line {
   width: 20%;
-  height: 3px;
-  background-color: rgba(25, 25, 25, 0.4588235294);
+  height: 10px;
+  background: url("../assets/images/banner/bg03b.png") 84px -1080px no-repeat, url("../assets/images/banner/bg01b.png") 426px -1080px no-repeat, url("../assets/images/banner/bg02b.png") 730px -1080px no-repeat, url("../assets/images/banner/bg03b.png") 872px -1080px no-repeat, url("../assets/images/banner/bg02b.png") 95% -1080px no-repeat, url("../assets/images/banner/bg00.jpg") 0 0 repeat;
+  background-color: #111;
+  -webkit-animation: waterfall 10s linear infinite;
+  animation: waterfall 10s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.row__square {
+  width: 30%;
+  height: 15px;
+  background: url("../assets/images/banner/bg03b.png") 84px -1080px no-repeat, url("../assets/images/banner/bg01b.png") 426px -1080px no-repeat, url("../assets/images/banner/bg02b.png") 730px -1080px no-repeat, url("../assets/images/banner/bg03b.png") 872px -1080px no-repeat, url("../assets/images/banner/bg02b.png") 95% -1080px no-repeat, url("../assets/images/banner/bg00.jpg") 0 0 repeat;
+  background-color: #111;
+  -webkit-animation: waterfall 10s linear infinite;
+  animation: waterfall 10s linear infinite;
   margin-bottom: 1rem;
 }
 
@@ -722,10 +735,7 @@ sup {
   }
   .introduce__content {
     flex: 1;
-    padding: 15rem 0;
-  }
-  .introduce__content p {
-    font-weight: 600;
+    padding: 5rem 0;
   }
 }
 /* --------------------------------- SKILLS --------------------------------- */
@@ -806,12 +816,11 @@ sup {
 }
 
 @media screen and (max-width: 768px) {
-  .project__list--row {
-    gap: 1rem;
+  .project__info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 /* -------------------------------------------------------------------------- */
@@ -852,7 +861,7 @@ footer {
     padding: 0 1rem;
   }
   .socialBar h1 {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
   }
   .socialBar p {
     font-size: 3rem;
@@ -1191,6 +1200,7 @@ footer {
   justify-content: flex-start;
 }
 .project__item--top .pit__right--buttons a span {
+  font-weight: 600;
   margin-right: 1rem;
 }
 .project__item--top .pit__right--buttons a:hover {
@@ -1309,12 +1319,13 @@ footer {
     justify-content: flex-start;
   }
   .project__item--top .pit__left--title h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-left: 1rem;
   }
   .project__item--top .pit__left--subtitle {
     font-size: 2rem;
     padding-right: 5rem;
+    width: 100%;
   }
   .project__item--top .pit__right {
     position: unset;
