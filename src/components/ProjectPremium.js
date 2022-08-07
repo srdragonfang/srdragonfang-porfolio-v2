@@ -14,7 +14,7 @@ const ProjectPremium = ({ data }) => {
 							<div className='pit__left'>
 								<div className='pit__left--title'>
 									<span className='atomicSlashes'>
-										<GiAtomicSlashes textShadow=" 1px 5px 25px #00ff00" size={30} />
+										<GiAtomicSlashes size={30} />
 									</span>
 									<h2>{item.title}</h2>
 								</div>

@@ -1,160 +1,130 @@
 {
-    "main": {
-        "info": [
-            {
-                "name": "S.R Dragonfang",
-                "email": "sr.dragonfang@hotmail.com",
-                "instagram": "https://www.instagram.com/srdragonfang",
-                "github": "https://www.github.com/srdragonfang",
-                "codepen": "https://www.codepen.com/srdragonfang"
-            }
-        ]
-    },
-    "portfolio": {
-        "introduce": [
-            {
-                "text": "I'm S.R Dragonfang. A creator, author and front-end developer. I love the creativity and beauty of art through letters and words. Tôi bắt đầu theo đuổi công việc này khoảng một năm trước và không ngừng cố gsắng cải thiện kĩ năng của mình."
-            },
-            {
-                "text": ""
-            }
-        ],
-        "projects": {
-            "project": [
+	"main": {
+		"info": [
+			{
+				"name": "S.R Dragonfang",
+				"email": "sr.dragonfang@hotmail.com",
+				"instagram": "https://www.instagram.com/srdragonfang",
+				"github": "https://www.github.com/srdragonfang",
+				"codepen": "https://www.codepen.com/srdragonfang"
+			}
+		]
+	},
+	"portfolio": {
+		"introduce": [
+			{
+				"text": "I'm S.R Dragonfang. A creator, author and front-end developer. I love the creativity and beauty of art through letters and words. Tôi bắt đầu theo đuổi công việc này khoảng một năm trước và không ngừng cố gsắng cải thiện kĩ năng của mình."
+			},
+			{
+				"text": ""
+			}
+		],
+		"projects": {
+			"project": [
+				{
+					"key": 1,
+					"title": "Portfolio | S.R Dragonfang",
+					"subtitle": "Portfolio Website",
+					"languages": "ReactJS, SCSS, Responsive",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/portfolio.png",
+					"mobilePath": "../assets/images/products/portfolio.png",
+					"previewURL": "https://srdf-portfolio.web.app/",
+					"sourceURL": "https://github.com/srdragonfang/React-Porfolio"
+				},
+				{
+					"key": 2,
+					"title": "Sokunmaru | Desk",
+					"subtitle": "MusicPlayer App, Clock App, Todo App, Note App, Kanban App",
+					"languages": "ReactJS, SCSS, API",
+					"responsive": "Suitable for large width devices 1024px",
+					"laptopPath": "../assets/images/products/sokunmaru-desk.png",
+					"mobilePath": "../assets/images/products/no-responsive.jpg",
+					"previewURL": "https://sokunmaru-desk.netlify.app/",
+					"sourceURL": "https://github.com/srdragonfang/sokunmaru-desk"
+				},
+				{
+					"key": 4,
+					"title": "Sokunmaru | A Million Dreams",
+					"subtitle": "NETFLIX.",
+					"languages": "ReactJS, CSS, Axios, Atlasian Icons, react-icons, youtube-media",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/movie-shop-laptop.png",
+					"mobilePath": "../assets/images/products/newspaper.jpg",
+					"previewURL": "https://srdf-movie-website.web.app/",
+					"sourceURL": "https://github.com/srdragonfang/sokunmaru-AMillionDreams"
+				},
                 {
-                    "key": 1,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Portfolio | S.R Dragonfang",
-                    "subtitle": "Portfolio Website",
-                    "languages": "ReactJS, SCSS, Responsive",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/portfolio.png",
-                    "mobilePath": "../assets/images/products/portfolio.png",
-                    "previewURL": "https://srdf-portfolio.web.app/",
-                    "sourceURL": "https://github.com/srdragonfang/React-Porfolio"
-                },
-                {
-                    "key": 2,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Sokunmaru | Desk",
-                    "subtitle": "MusicPlayer App, Clock App, Todo App, Note App, Kanban App",
-                    "languages": "ReactJS, SCSS, API",
-                    "responsive": "Suitable for large width devices 1024px",
-                    "laptopPath": "../assets/images/products/sokunmaru-desk.png",
-                    "mobilePath": "../assets/images/products/no-responsive.jpg",
-                    "previewURL": "https://sokunmaru-desk.netlify.app/",
-                    "sourceURL": "https://github.com/srdragonfang/sokunmaru-desk"
-                },
-                {
-                    "key": 3,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Sokunmaru | Movie Shop",
-                    "subtitle": "Economy Movie Website",
-                    "languages": "ReactJS, CSS",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/movie-shop-laptop.png",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "https://srdf-movie-website.web.app/",
-                    "sourceURL": "https://github.com/srdragonfang/React-movie-website"
-                },
-                {
-                    "key": 4,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Sokunmaru | Cinema",
-                    "subtitle": "Movie Booking Seats",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
-                },
-                {
-                    "key": 5,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Sokunmaru | Magazine",
-                    "subtitle": "Form Validate",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": ""
-                },
-                {
-                    "key": 6,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Clone | TikTok",
-                    "subtitle": "Video Social Media",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": ""
-                },
-                {
-                    "key": 7,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Clone | Gmail",
-                    "subtitle": "Form Validate",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
-                },
-                {
-                    "key": 8,
-                    "boxClass": "boxClass-cycle",
-                    "title": "Form | Validate",
-                    "subtitle": "Form Validate",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": ""
-                },
-                {
-                    "key": 9,
-                    "boxClass": "boxClass-cycle",
-                    "title": "",
-                    "subtitle": "New Project 03",
-                    "languages": "HTML5, CSS3, Javascript",
-                    "responsive": "Suitable for large width devices 375px",
-                    "laptopPath": "../assets/images/products/newspaper.jpg",
-                    "mobilePath": "../assets/images/products/newspaper.jpg",
-                    "previewURL": "",
-                    "sourceURL": ""
-                }
-            ]
-        },
-        "certificates": {
-            "frontEnd": [
-                {
-                    "title": "HTML Essential Training"
-                },
-                {
-                    "title": "CSS Essential Training"
-                },
-                {
-                    "title": "JavaScript Essential Training"
-                },
-                {
-                    "title": "SCSS Essential Training"
-                },
-                {
-                    "title": "Bootstrap Essential Training"
-                },
-                {
-                    "title": "TailwindCSS Essential Trainings"
-                },
-                {
-                    "title": "Github Essential Training The Basic"
-                }
-            ]
-        }
-    }
+					"key": 3,
+					"title": "Clone | Gmail",
+					"subtitle": "Form Validate",
+					"languages": "HTML5, CSS3, Javascript",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/newspaper.jpg",
+					"mobilePath": "../assets/images/products/newspaper.jpg",
+					"previewURL": "",
+					"sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
+				},
+				{
+					"key": 5,
+					"title": "Sokunmaru | Cinema",
+					"subtitle": "Movie Booking Seats",
+					"languages": "HTML5, CSS3, Javascript",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/newspaper.jpg",
+					"mobilePath": "../assets/images/products/newspaper.jpg",
+					"previewURL": "",
+					"sourceURL": "https://github.com/srdragonfang/100-Vanilla-JS-Project/tree/master/1-apps/001-movie-seat-booking-done"
+				},
+				{
+					"key": 6,
+					"title": "Sokunmaru | Newspaper",
+					"subtitle": "Newspaper",
+					"languages": "HTML5, CSS3, Javascript",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/newspaper.jpg",
+					"mobilePath": "../assets/images/products/newspaper.jpg",
+					"previewURL": "https://sokunmaru-newspaper.netlify.app/",
+					"sourceURL": "https://github.com/srdragonfang/sokunmaru-coffeeShop"
+				},
+
+				{
+					"key": 7,
+					"title": "Form | Validate",
+					"subtitle": "Form Validate",
+					"languages": "HTML5, CSS3, Javascript",
+					"responsive": "Suitable for large width devices 375px",
+					"laptopPath": "../assets/images/products/form-validate-laptop.png",
+					"mobilePath": "../assets/images/products/form-validate-laptop.png",
+					"previewURL": "https://sokunmaru-validate.netlify.app/",
+					"sourceURL": "https://github.com/srdragonfang/form-validate"
+				}
+			]
+		},
+		"certificates": {
+			"frontEnd": [
+				{
+					"title": "HTML Essential Training"
+				},
+				{
+					"title": "CSS Essential Training"
+				},
+				{
+					"title": "JavaScript Essential Training"
+				},
+				{
+					"title": "SCSS Essential Training"
+				},
+				{
+					"title": "Bootstrap Essential Training"
+				},
+				{
+					"title": "TailwindCSS Essential Trainings"
+				},
+				{
+					"title": "Github Essential Training The Basic"
+				}
+			]
+		}
+	}
 }
